@@ -1,4 +1,4 @@
-// Algoritmo para calcular sal·rio, com base na quantidade de horas trabalhadas e valor-hora.
+// Algoritmo para calcular sal√°rio, com base na quantidade de horas trabalhadas e valor-hora.
 
 #include <stdio.h>
 int main()
@@ -9,6 +9,6 @@ int main()
     scanf("%d", &x);                            //lendo a quantidade de horas.
     printf("Quanto vale a hora?\n");
     scanf("%f", &y);                            //lendo o valor-hora.
-    printf("Voce recebera: %f reais.\n", x*y);  //Calcula o valor do sal·rio.
+    printf("Voce recebera: %f reais.\n", x*y);  //Calcula o valor do sal√°rio.
     return 0;
 }
