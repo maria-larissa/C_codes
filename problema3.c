@@ -6,15 +6,15 @@ int main()
     printf("Qual o valor do seu salario?\n");
     scanf("%f", &x);
 	
-	//calcula o valor pago em impostos. O valor do imposto È 8% do total do sal·rio.
+	//calcula o valor pago em impostos. O valor do imposto √© 8% do total do sal√°rio.
     y = 0.08*x;      
     printf("voce pagou de imposto:%f reais.\n", y);
     
-    //Calcula o valor pago em sindicato. O valor do sindicato È 5% do tatal do sal·rio.
+    //Calcula o valor pago em sindicato. O valor do sindicato √© 5% do tatal do sal√°rio.
     z = 0.05*x;      
     printf("voce pagou de sindicato:%f reais.\n", z);
    
-    //Calcula o valor do sal·rio bruto.
+    //Calcula o valor do sal√°rio bruto.
     w = x - (y + z);
     printf("O seu salario liquido foi de:%f reais.\n", w);
 
