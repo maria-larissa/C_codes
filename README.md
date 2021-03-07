@@ -5,3 +5,4 @@ Problema1: algoritmo para calcular salário, com base na quantidade de horas tra
 
 Problema2:  algoritmo para calcular o percentual de votos brancos, nulos e válidos.
 
+Problema3: algoritmo para calcular salario bruto, com base no valor pago de imposotos e sindicato.
