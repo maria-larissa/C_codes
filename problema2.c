@@ -1,4 +1,4 @@
-// Algoritmo para calcular o percentual de votos brancos, nulos e v·lidos.
+// Algoritmo para calcular o percentual de votos brancos, nulos e v√°lidos.
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -7,7 +7,7 @@ int main()
     float t;
 
     printf("Quantos votos validos?\n");
-    scanf("%d", &x);                     // Lendo quantidade de votos v·lidos.
+    scanf("%d", &x);                     // Lendo quantidade de votos v√°lidos.
     printf("Quantos votos brancos?\n");
     scanf("%d", &y);                    //lendo quantidade de votos brancos.
     printf("Quantos votos nulos?\n");
