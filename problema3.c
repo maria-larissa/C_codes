@@ -6,7 +6,7 @@ int main()
     printf("Qual o valor do seu salario?\n");
     scanf("%f", &x);
 	
-	//calcula o valor pago em impostos. O valor do imposto é 8% do total do salário.
+    //calcula o valor pago em impostos. O valor do imposto é 8% do total do salário.
     y = 0.08*x;      
     printf("voce pagou de imposto:%f reais.\n", y);
     
