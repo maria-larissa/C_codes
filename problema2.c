@@ -15,7 +15,7 @@ int main()
 
     t = x + y + z;
 
-	//Escreve o precentual  de cada tipo de voto na tela. 
+    //Escreve o precentual  de cada tipo de voto na tela. 
     printf("O percentual de votos validos foi de: %f por cento.\n", (x/t)*100); 
     printf("O percentual de votos brancos foi de: %f por cento.\n", (y/t)*100);
     printf("O percentual de votos nulos foi de %f por cento.\n", (z/t)*100);
