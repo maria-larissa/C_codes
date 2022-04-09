@@ -1,3 +1,4 @@
+//Algoritmo para analisar se uma palavra é palindroma
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,9 +6,9 @@
 int main(){
     char palavra[30];
     printf("\nDigite uma palavra: ");
-    scanf("%29[^\n]",&palavra);
-    //como saber quantas letras tem a palavra
-    int cont = strlen(palavra);
+    scanf("%29[^\n]",&palavra);         //Lendo a palavra do teclado
+    
+    int cont = strlen(palavra);         //calculando quantas letras tem a palavra
 
     if(cont%2 == 0){        //caso cont seja par
         for(int i=0; i<(cont/2); i++){
