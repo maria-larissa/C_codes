@@ -16,3 +16,5 @@ Problema6: algoritmo para saber qual o maior de três numeros.
 Problema7: algoritmo para calcular o IMC de uma pessoa e encaixá-la em uma das categorias existentes.
 
 Problema8: algoritmo para saber se uma palavra é palindroma.
+
+Problema9: algoritmo para saber se uma palavra é palindroma, porém usando PILHA.
