@@ -19,4 +19,6 @@ Problema8: algoritmo para saber se uma palavra é palindroma.
 
 Problema9: algoritmo para calcular fatorial sem usar recursão.
 
-Problema10: algoritmo para calcular a multiplicação de matrizes.
+Problema10: algoritmo para alocar (criar) matrizes dinamicamente.
+
+Problema11: algoritmo para calcular a multiplicação de matrizes.
