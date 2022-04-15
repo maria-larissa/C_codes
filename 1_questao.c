@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+/*
+*   O algoritmo calcula e printa a quantidade de pessoas que tomaram a 1ª dose da vacina, mas não tomaram a 2ª dose e 
+*   printa o vetor dos códigos dessas pessoas.
+*   Ademais, calcula e printa a média das pessoas que não se vacinaram.
+*/
 
+//Definindo o tipo de dado usado no problema
 typedef struct vacinados{
     int codigo;
     int dose_1;
@@ -8,6 +14,7 @@ typedef struct vacinados{
     int idade;
 }Vacinados;
 
+//Função para calcular a quantidade de pessoas que tomaram 1ª dose e não tomaram a 2ª
 int pessoas_1_sim_2_nao(Vacinados *vetor, int tam){
     int cont=0;
     for(int i=0; i<tam ; i++){
@@ -18,6 +25,7 @@ int pessoas_1_sim_2_nao(Vacinados *vetor, int tam){
     return cont;
 }
 
+//Função para calcular a média das pessoas que não se vacinaram
 float mediaNtomaramVacina(Vacinados* vetor, int tam){
     int cont=0;
     for(int i=0; i<tam; i++){
@@ -30,13 +38,9 @@ float mediaNtomaramVacina(Vacinados* vetor, int tam){
 }
 
 /*
-Crie uma função que tenha como parâmetro um vetor de pessoas e o seu tamanho. A
-função deve retornar o endereço inicial de um vetor de inteiros (alocado na memória
-heap). Os elementos do vetor devem ser os códigos das pessoas que tomaram a
-primeira dose e não tomaram a segunda. Além disso, deve ser colocado o valor -1
-na última posição desse vetor. Por exemplo, supondo que no vetor de pessoas os
-códigos 4, 5 e 10 são as pessoas que tomaram a primeira dose e que não tomaram a
-segunda, o vetor retornado deverá ser [4, 5, 10, -1]. (2,0)
+*   Função recebe um vetor de pessoas e o seu tamanho e retorna um vetor de inteiros dos códigos das pessoas que tomaram a 
+*   primeira dose e não tomaram a segunda. Além disso,coloca o valor -1 na última posição desse vetor.
+*   Por exemplo, vetor = [4, 5, 10, -1], onde apenas 4, 5 e 10 são códigos.
 */
 int* tomara1_2nao(Vacinados* vetor, int tam){
     int tam2 = pessoas_1_sim_2_nao(vetor,tam) + 1;
@@ -85,8 +89,12 @@ int main(){
         printf("\n.idade : %d", vetor[i].idade);
         printf("\n");
     }
-    printf("\nQuantidade de pessoaa 1ª-sim e 2ª-não = %d.\n", pessoas_1_sim_2_nao(vetor, n));
+    //Printa a quantidade de pessoas que tomaram a 1ª dose da vacina, mas não tomaram a 2ª dose
+    printf("\nQuantidade de pessoas 1ª-sim e 2ª-não = %d.\n", pessoas_1_sim_2_nao(vetor, n));
+    
+    //Printa a média das pessoas que não se vacinaram
     printf("\nA media das pessoas que não se vacinaram = %.2f.\n", mediaNtomaramVacina(vetor, n));
+    
     printf("\nvetor dos códigos : [");
     int tam3 = (pessoas_1_sim_2_nao(vetor,n) ) + 1;
     for(int j=0; j< tam3; j++){
