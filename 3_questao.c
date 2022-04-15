@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+*   O algoritmo calcular o menor elemento da matriz e retorna qual a linha e a coluna a qual pertence.
+*/
 int main()
 {
     int n = 0;
