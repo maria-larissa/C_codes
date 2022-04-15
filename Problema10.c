@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*O código possui:
-        ALAOCAÇÃO DINAMICA DE MATRIZES (n x n)
+        ALAOCAÇÃO DINAMICA DE MATRIZ (n x n)
 */
 
 int **criar_matriz(int tam);
