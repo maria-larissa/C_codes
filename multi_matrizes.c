@@ -45,7 +45,7 @@ int main(){
         }
         printf("\n");
     }
-
+    return 0;
 }
 //Função criar matrizes (n x n)
 int **criar_matriz(int tam){
