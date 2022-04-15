@@ -9,8 +9,10 @@ int **criar_matriz(int tam);
 
 int main(){
     int n;
+    printf("\nDigite o tamanho da matriz: ");
+    scanf("%d", &n);
+        
     int **matriz_criada; //Matrizes são ponteiros de ponteiros, logo(**).
-  
     printf("\nDigite os dados da matriz\n");
     matriz_criada = criar_matriz(n);
 
