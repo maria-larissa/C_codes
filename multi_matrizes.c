@@ -11,6 +11,8 @@ int **multiplicar_matrizes(int tam, int **matriz1, int **matriz2);
 
 int main(){
     int n;
+    printf("Digite a ordem das matrizes: ");
+    scanf("%d", &n);
     int **matriz_criada3, **matriz_criada4, **matriz_multi; //Matrizes são ponteiros de ponteiros, logo(**).
 
     printf("\nDigite os dados da 1ª matriz\n");
