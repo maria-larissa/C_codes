@@ -22,3 +22,5 @@ Problema9: algoritmo para calcular fatorial sem usar recursão.
 Problema10: algoritmo para alocar (criar) matrizes dinamicamente.
 
 Problema11: algoritmo para calcular a multiplicação de matrizes.
+
+Problema12: algoritmo para calcular o menor elemento da matriz e retornar qual a linha e a coluna a qual pertence.
