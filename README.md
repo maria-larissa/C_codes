@@ -19,4 +19,4 @@ Problema8: algoritmo para saber se uma palavra é palindroma.
 
 Problema9: algoritmo para saber se uma palavra é palindroma, porém usando PILHA.
 
-Problema10: Calcula fatorial sem usar recursão.
+Problema10: algoritmo para calcular fatorial sem usar recursão.
