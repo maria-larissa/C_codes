@@ -17,6 +17,6 @@ Problema7: algoritmo para calcular o IMC de uma pessoa e encaixá-la em uma das 
 
 Problema8: algoritmo para saber se uma palavra é palindroma.
 
-Problema9: algoritmo para saber se uma palavra é palindroma, porém usando PILHA.
+Problema9: algoritmo para calcular fatorial sem usar recursão.
 
-Problema10: algoritmo para calcular fatorial sem usar recursão.
+Problema10: 
