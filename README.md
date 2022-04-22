@@ -25,6 +25,6 @@ Problema11: algoritmo para calcular a multiplicação de matrizes.
 
 Problema12: algoritmo para calcular o menor elemento da matriz e retornar qual a linha e a coluna a qual pertence.
 
-Problema13: algoritmo para troca os elementos de um vetor dois a dois.
+Problema13: algoritmo para troca os elementos de um vetor dois a dois, dado que o vetor tem tamanho par.
 
 Problema14: algoritmo para alocar (criar) um vetor dinamicamente
